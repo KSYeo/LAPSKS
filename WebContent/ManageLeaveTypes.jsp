@@ -15,22 +15,20 @@
 <h1>Manage Leave Type</h1>
 
 <h2>
-            <a href="/new">Add New Leave Type</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="/list">List All Books</a>
-             
+            <a href="/new">Add New Leave Type</a>             
         </h2>
 
 </center>
 
 <div align="center">
-	<table border="1" cellpadding="3">
+	<table border="1" cellpadding="5">
 	<caption><h2>List of Leave Types</h2></caption>
 	<tr>
 	<th>Leave Type</th>
 	<th>Classification</th>
+	<th>Actions</th>
 	</tr>
-		<c:forEach items="${leave_type}" var="leave_type">
+		<c:forEach var="leave_type" items="${leave_type}">
 			<tr>
 			    <td><c:out value="${leave_type}" /></td>
 			    <td><c:out value="${leave_name}" /></td>
