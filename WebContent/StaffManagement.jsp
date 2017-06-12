@@ -43,7 +43,8 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="/delete?staff_list=<c:out value='${staff_list.staff_id}' />">Delete</a> 
                			&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="/viewleave?staff_list=<c:out value='${staff_list.staff_id}' />">View Leave</a>   
+                <a href="/viewleave?staff_list=<c:out value='${staff_list.staff_id}' />">View/Manage Leave</a>
+                   
                         </td>
 			</tr>
 		</c:forEach>
